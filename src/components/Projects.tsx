@@ -17,7 +17,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (sectionRef.current) {
@@ -45,7 +45,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         "Isolation Forest",
       ],
       github: "https://github.com/Shub95-arch/svCAT",
-      external: "https://console.securenet.org.in/",
+      external: "https://svcat.online/",
       featured: true,
       stars: 1200,
     },
@@ -65,7 +65,7 @@ const Projects: React.FC<ProjectsProps> = ({ isDark }) => {
         "SMTP",
       ],
       github: "https://github.com/Shub95-arch/email_marketing",
-      external: "https://mail.securenet.org.in/",
+      external: "https://mail.securenet.network/",
       featured: true,
       stars: 850,
     },

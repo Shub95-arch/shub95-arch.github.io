@@ -24,7 +24,7 @@ const Experience: React.FC<ExperienceProps> = ({ isDark }) => {
       company: "secureNET",
       title: "Founder & CEO",
       duration: "June 2023 - Present",
-      url: "https://securenet.org.in/",
+      url: "https://securenet.network/",
       responsibilities: [
         "Led the development and deployment of secure, real-world SaaS products, including an AI-driven watchdog system, voice conversion tool, and anomaly detection platform.",
         "Designed and implemented full-stack solutions for clients, integrating backend logic, machine learning models, and cloud infrastructure to ensure scalability and security.",
@@ -91,8 +91,8 @@ const Experience: React.FC<ExperienceProps> = ({ isDark }) => {
                       ? "text-emerald-400 border-emerald-400 bg-emerald-400/10"
                       : "text-slate-800 border-slate-600 bg-slate-100"
                     : isDark
-                    ? "text-slate-400 border-slate-600 hover:text-emerald-400 hover:bg-slate-800/50"
-                    : "text-slate-600 border-slate-300 hover:text-slate-800 hover:bg-slate-50"
+                      ? "text-slate-400 border-slate-600 hover:text-emerald-400 hover:bg-slate-800/50"
+                      : "text-slate-600 border-slate-300 hover:text-slate-800 hover:bg-slate-50"
                 }`}
               >
                 {exp.company}
@@ -151,7 +151,7 @@ const Experience: React.FC<ExperienceProps> = ({ isDark }) => {
                     </span>
                     <span className="leading-relaxed">{responsibility}</span>
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>
